@@ -212,9 +212,10 @@ number = st.sidebar.slider('Select a number:', 0, 10, 5)
 st.write('Selected number from slider widget is:', number)
 
 
-st.write(st.secrets['message'])
+#st.write(st.secrets['message'])
 
-
+st.write('DB_Username is: ', st.secrets['DB_USER'])
+st.write('DB_Pssword is: ', st.secrets['DB_PASSCODE'])
 
 
 
